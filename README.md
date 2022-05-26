@@ -8,7 +8,8 @@ This blog can be successfully deployed but the lambda has runtime error, the blo
 lambda-runtime setting-handler-把macie.handler修改为index.handler.将默认代码保存为一个version然后将[macie-tag.py](https://github.com/jessicawyc/macie-blog-tag/blob/main/macie-tag.py)中的代码替换成新version,可以成功运行给bucket中被macie识别出为High的object打上tag.tag为 sensitivity:High
 # 改进内容
 ##根据公司内部分级规则给扫描出相应信息的S3 Object打tag标签,标签可以在环境变量中自由定义:
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://github.com/jessicawyc/macie-blog-tag/blob/main/macie-%E7%BA%A7%E5%88%AB%E8%87%AA%E5%AE%9A%E4%B9%89.png)
 标签取所有finding中最高级别
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+请下载lambda文件
 [macie-tag-customize.py](https://github.com/jessicawyc/macie-blog-tag/blob/main/macie-tag-customize.py)
