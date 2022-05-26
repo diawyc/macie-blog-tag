@@ -9,4 +9,4 @@ lambda-runtime setting-handler-把macie.handler修改为index.handler.将默认�
 # 改进内容
 ##根据公司内部分级规则给扫描出相应信息的S3 Object打tag标签,标签可以在环境变量中自由定义:
 标签取所有finding中最高级别
-[macie-tag-customise.py](https://github.com/jessicawyc/macie-blog-tag/blob/main/macie-tag-customize.py)
+[macie-tag-customize.py](https://github.com/jessicawyc/macie-blog-tag/blob/main/macie-tag-customize.py)
